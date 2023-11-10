@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+#math_UI {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px;
+    position: fixed;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+#math_HEADER {
+    width: 99%;
+    user-select: none;
+    border-radius: 5px;
+    height: 4vh;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 1%;
+}
+
+#math_INPUT {
+    width: 95%;
+    border-radius: 5px;
+    height: 4vh;
+    margin-top: 2%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    text-align: left;
+    font-size: 2.25vh;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 1%;
+}
+
+#math_INPUT:focus {
+    outline: none;
+}
+
+#math_OUTPUT {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.math_STEP {
+    font-family: 'Quicksand', sans-serif;
+    width: 95%;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    font-size: 1.75vh;
+    padding: 1%;
+}

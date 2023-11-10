@@ -1,0 +1,35 @@
+{
+  "name": "math-bookmarklet",
+  "version": "1.0.0",
+  "description": "penguinify",
+  "main": "index.js",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "test": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Penguinify/math-bookmarklet.git"
+  },
+  "keywords": [
+    "car",
+    "axle",
+    "client",
+    "math",
+    "bookmarklet"
+  ],
+  "author": "penguinify",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Penguinify/math-bookmarklet/issues"
+  },
+  "homepage": "https://github.com/Penguinify/math-bookmarklet#readme",
+  "dependencies": {
+    "mathsteps": "^0.2.0"
+  }
+}
