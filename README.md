@@ -1,2 +1,2 @@
 # math-bookmarklet
-Solve math in a simple bookmarklet
+Solve and simply from a bookmarklet.
