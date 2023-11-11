@@ -9,6 +9,9 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 2%;
+    top:0;
+    right:0;
+    z-index:100000000000;
 }
 
 #math_HEADER {
@@ -18,7 +21,11 @@
     height: 4vh;
     background-color: #333;
     color: #fff;
+    display:flex;
+    flex-direction: row;
     text-align: left;
+    align-items: center;
+    justify-content: space-between;
     font-size: 3vh;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
@@ -61,4 +68,45 @@
     text-align: left;
     font-size: 1.75vh;
     padding: 1%;
+}
+
+#solve_TYPE {
+    width: 95%;
+    margin-top: 2%;
+}
+
+#math_CLOSE {
+    width: 7%;
+    font-size: 2vh;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2%;
+    font-size: 4vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.math_ENABLED {
+    width: 20%;
+    font-size: 2vh;
+    background: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-right: 2%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.math_DISABLED {
+    width: 20%;
+    font-size: 2vh;
+    background: #333;
+    color: #fff;
+    border: none;
+    margin-right: 2%;
+    border-radius: 5px;
+    margin-top: 2%;
+    font-family: 'Quicksand', sans-serif;
 }
