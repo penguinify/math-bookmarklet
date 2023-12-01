@@ -18,7 +18,7 @@ class App {
         // Create the header div
         const mathHeader = document.createElement("div");
         mathHeader.id = "math_HEADER";
-        mathHeader.textContent = "Penguinify's Math Solver (v2.0)";
+        mathHeader.textContent = "Penguinify's Math Solver (v3.0)";
 
         // Create the close button
         const closeButton = document.createElement("button");
@@ -199,7 +199,7 @@ class App {
             // if right click minimize/restore
             if (event.which == 3) {
                 if (ui.style.height == "0vh") {
-                    ui.style.height = "unset";
+                    ui.style.height = "60%";
                 } else {
                     ui.style.height = "0vh";
                 }

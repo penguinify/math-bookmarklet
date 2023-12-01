@@ -6,6 +6,7 @@
     position: fixed;
     background-color: #222;
     display: flex;
+    height: 60%;
     flex-direction: column;
     align-items: center;
     padding-bottom: 2%;
@@ -45,24 +46,48 @@
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
     padding-left: 1%;
+    transition: 0.5s;
 }
 
 #math_INPUT:focus {
     outline: none;
+    height: 5vh;
 }
 
 #math_OUTPUT {
     width: 100%;
+    margin-top: 2%;
     display: flex;
+    overflow-y: scroll;
     align-items: center;
     flex-direction: column;
 }
+
+
+#math_OUTPUT::-webkit-scrollbar {
+    width: 0.9vw;
+}
+
+#math_OUTPUT::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#math_OUTPUT::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 20px;
+}
+
+#math_OUTPUT::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+
+
 
 .math_STEP {
     font-family: 'Quicksand', sans-serif;
     width: 95%;
     border-radius: 5px;
-    margin-top: 2%;
+    margin-bottom: 2%;
     background-color: #333;
     color: #fff;
     text-align: left;
@@ -77,13 +102,11 @@
 
 #math_CLOSE {
     width: 7%;
-    font-size: 2vh;
-    background: #333;
     color: #fff;
+    background-color: transparent;
     border: none;
     border-radius: 5px;
-    margin-top: 2%;
-    font-size: 4vh;
+    font-size: 3vh;
     font-family: 'Quicksand', sans-serif;
 }
 
